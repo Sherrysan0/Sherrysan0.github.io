@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ALMANAC - Shigeo Fukuda Research </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    #wrapper {
+        position: relative;
+        width:100vw;
+        height:100vh;
+        }
+    #wrapper > {
+        position:relative;
+    left:0%;
+    bottom:0%;
+    }
+        
+    h1{
+        font-size: 90px;
+        font-weight: 300;
+        margin: 30px;
+        line-height: 1.5; 
+    }
+    a{
+        font-size: 75px;
+        text-decoration: none;
+        color: black;
+        display: block;  
+        margin-left: 30px;
+    }
+    .a1{            
+        margin-top: 25px;
+    }
+    .a2{            
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    a:hover {
+        color: rgb(129, 129, 129);
+    }
+  .link-button {
+        display: inline-block;
+        padding: 8px 18px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 16px;
+        border: 1px solid black;
+        border-radius: 0px;
+         margin-top: 0px;
+        z-index: 2; 
+    }
+    .Info-button {
+        position: absolute;   
+        top: 2.4%;            
+        right: 9.5%; 
+        transform: rotate(90deg);
+     }
+           .Info-button:hover {
+          border-color: rgb(129, 129, 129); 
+          color: rgb(129, 129, 129) ; 
+      }
+
+    .links-1 {
+        position: relative;   
+        border-top: 2.5px solid black;
+        max-width: 1200px;
+        margin-top: 9.5px;
+        z-index: 1; 
+    }
+    .links-2 {
+        position: relative;   
+        border-top: 2.5px solid black;
+        max-width: 985px;
+        z-index: 2; 
+    }
+    .title-3{    
+        position: relative;      
+        max-width: 750px;
+        border-top: 2.5px solid black;
+        border-right:2.5px solid black;
+        opacity: 1;
+        height: 62.25vh;
+        z-index: 3; 
+
+    }
+    .links-1::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2.5px; /* Width of the right border */
+            background-color: black;
+            height: 99.5vh; /* Extend the border vertically */
+            z-index: -1; /* Place the extended border behind the content */
+        }
+
+        .links-2::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2.5px; /* Width of the right border */
+            background-color: black;
+            height: 80.55vh; /* Extend the border vertically */
+            z-index: -1; /* Place the extended border behind the content */
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+        <div class="links-1">
+            <a href="./ResearchintoDesign/" class="a1" >Research into Design</a><br><br>
+        </div>
+        <div class="links-2">
+             <a href="./AnnotatedBibliography/" class="a2" >Annotated Bibliography</a>
+        </div>
+        <div class="title-3">
+            <h1>SHIGEO</h1>
+            <h1>FUKUDA</h1>
+            <h1>RESEARCH</h1>
+         </div>
+</div>
+<a href="Info" class="link-button Info-button">Info</a>
+</body>
+</html>

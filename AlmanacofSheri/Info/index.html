@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMANAC - Info</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+            * {
+        box-sizing: border-box;
+                    margin-bottom: 0px;
+    }
+ #wrapper {
+        position: relative;
+        width:100vw;
+        height:100vh;
+        }
+    #wrapper > {
+        position:relative;
+    left:0%;
+    bottom:0%;
+    }
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+            margin-left: 0px;
+            margin-top: 0px;
+            padding: 0px;
+            
+        }
+        a{
+            font-size: 60px;
+            text-decoration: none;
+            color: black;
+            display: block;
+            margin-top: 30px;
+            margin-bottom: 40px;  
+            margin-left: 30px;      
+        }
+        a:hover {
+  color: rgb(129, 129, 129);
+}
+    .link-button {
+        display: inline-block;
+        padding: 8px 18px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 16px;
+        border: 1px solid black;
+        border-radius: 0px;
+        margin-top: 0px;
+         z-index: 2; 
+      }
+      .link-button:hover {
+          border-color: rgb(129, 129, 129); 
+          color: rgb(129, 129, 129) ; 
+      }
+      .back-button {
+        position: absolute;   
+  top: 3%;            
+  right: 9%; 
+        transform: rotate(90deg);
+      }   
+          .links-1 {
+        position: relative;   
+        border-top: 2px solid black;
+        max-width: 1200px;
+        margin-top: 9.5px;
+        z-index: 1; 
+    }
+    .links-2 {
+        position: relative;   
+        border-top: 2px solid black;
+        max-width: 985px;
+        z-index: 2; 
+    }
+    .link-3{    
+        position: relative;      
+        max-width: 750px;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        height: 63.9vh;
+        z-index: 3; 
+
+    }
+    .links-1::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2px; 
+            background-color: black;
+            height: 98.7vh; 
+            z-index: -1; 
+        }
+
+        .links-2::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2px; 
+            background-color: black;
+            height: 81.2vh; 
+            z-index: -1; 
+        }
+
+    </style>   
+</head>
+<body>
+<div class="wrapper">
+    <div class="links-1">
+        <a href="./Introduction/">Introduction</a>
+    </div>
+    <div class="links-2">
+        <a href="./Bibliography/">Bibliography</a>  
+    </div>
+    <div class="link-3">
+        <a href="./ListofFigure/">List of Figures</a> 
+    </div>
+</div>
+    <a href="../" class="link-button back-button">Back</a>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bauhaus</title>
+<style>
+      
+  * {
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+  }
+  .rotated-link {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    transform: rotate(90deg) translateY(-100%);
+    transform-origin: left top;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight:300;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+  }
+  .rotated-link:hover{color: rgb(129, 129, 129)}
+        
+ .link-button {
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-top: 0px;
+    z-index: 10;
+}
+.link-button:hover {
+    border-color: rgb(129, 129, 129); 
+    color: rgb(129, 129, 129) ; 
+}
+.back-button {
+  position: absolute;   
+  top: 3% ;            
+  right: 9.1% ; 
+  transform: rotate(90deg);
+         
+}
+.container {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0%;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  padding-left: 90px;  
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  justify-content: flex-end;
+}
+
+.gallery img {
+  width: 195.9px;
+  filter: grayscale(100%) brightness(100%);
+  transition: filter 0.3s ease;
+  transition: opacity 0.4s ease;            
+  opacity: 0.4;
+}
+
+.gallery img:hover {
+  filter: grayscale(0%) brightness(100%);
+  opacity: 0.9;
+}
+.left {
+  width: 35px; 
+  margin-right: 20px;
+}
+.right {
+  flex: 1;
+  position: relative;
+
+}
+    </style>
+</head>
+<body>
+        <a href="./word1/" class="rotated-link">Bauhaus</a>
+        <a href="../" class="link-button back-button">Back</a>
+    <div class="container">
+     <div class="right">
+        <div class="gallery">
+          <a href="./pic1/">
+              <img src="https://raw.githubusercontent.com/Sherrysan0/Design-Research/refs/heads/main/img1.jpg" alt="img1">
+          </a>
+          <a href="./pic2/">
+                <img src="https://raw.githubusercontent.com/Sherrysan0/Design-Research/refs/heads/main/img2.jpg" alt="img2">
+          </a>
+          <a href="./pic3/">
+                <img src="https://raw.githubusercontent.com/Sherrysan0/Design-Research/refs/heads/main/img3.jpg" alt="img3">
+          </a>
+          <a href="./pic4/">
+                <img src="https://raw.githubusercontent.com/Sherrysan0/Design-Research/refs/heads/main/img4.jpg" alt="img4">
+          </a>
+          <a href="./pic5/">
+                <img src="https://raw.githubusercontent.com/Sherrysan0/Design-Research/refs/heads/main/img5.jpg" alt="img5">
+          </a>
+        </div>
+        </div>
+      </div>
+</body>
+</html>

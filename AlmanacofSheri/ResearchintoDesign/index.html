@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research into Design</title>
+    <style>
+
+         * {
+        box-sizing: border-box;
+    }
+       #wrapper {
+        position: relative;
+        width:100vw;
+        height:100vh;
+        }
+    #wrapper > {
+        position:relative;
+    left:0%;
+    bottom:0%;
+    }
+        body {
+            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+            padding: 0px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+            
+        }
+        h1{
+            font-size: 70px;
+            font-weight: 300;
+            margin-top: 35px;
+            margin-left: 30px;
+
+        }
+        a{
+            font-size: 70px;
+            text-decoration: none;
+            color: black;
+            display: block;
+            margin-top: 15px ;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            
+        }
+        a:hover {
+  color: rgb(129, 129, 129);
+}
+        .link-button {
+  display: inline-block;
+  padding: 8px 18px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 0px;
+  margin-top: 0px;
+           z-index: 2; 
+}
+      .link-button:hover {
+          border-color: rgb(129, 129, 129); 
+          color: rgb(129, 129, 129) ; 
+      }
+.back-button {
+  position: absolute;   
+    top: 3% ;            
+    right: 9.1% ; 
+  transform: rotate(90deg);}
+         
+     .links-1 {
+        position: relative;   
+        border-top: 2px solid black;
+        max-width: 1200px;
+        margin-top: 9.5px;
+        z-index: 1; 
+    }
+    .links-2 {
+        position: relative;   
+        border-top: 2px solid black;
+        max-width: 1033px;
+        z-index: 2; 
+    }
+      .links-3 {
+        position: relative;   
+        border-top: 2px solid black;
+        max-width: 866px;
+        z-index: 2; 
+    }
+    .title-4{    
+        position: relative;      
+        max-width: 700px;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        opacity: 1;
+        height: 51vh;
+        z-index: 3; 
+
+    }
+    .links-1::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2px; /* Width of the right border */
+            background-color: black;
+            height: 98.7vh; /* Extend the border vertically */
+            z-index: -1; /* Place the extended border behind the content */
+        }
+
+        .links-2::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2px; /* Width of the right border */
+            background-color: black;
+            height: 82.75vh; /* Extend the border vertically */
+            z-index: -1; /* Place the extended border behind the content */
+        }
+        .links-3::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2px; /* Width of the right border */
+            background-color: black;
+            height: 66.75vh; /* Extend the border vertically */
+            z-index: -1; /* Place the extended border behind the content */
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="links-1">
+      <a href="./Pictograph/">Pictograph</a>
+   </div>
+    <div class="links-2">
+      <a href="./fgrelationship/">Figure/Ground Relationship</a>  
+    </div>
+    <div class="links-3">
+      <a href="./Bauhaus/">Bauhaus</a> 
+    </div>
+    <div class="title-4">
+      <h1>RESEARCH</h1>
+      <h1>INTO</h1>
+      <h1>DESIGN</h1>
+    </div>
+  </div>
+    <a href="../" class="link-button back-button">Back</a>
+
+</body>
+</html>
