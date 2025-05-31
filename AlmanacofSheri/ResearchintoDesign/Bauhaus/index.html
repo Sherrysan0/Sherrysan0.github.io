@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bauhaus</title>
 <style>
+
+  
+          * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set up CSS Grid for body */
+        body {
+            display: grid;
+            grid-template-rows: 1fr auto;  /* Top content and bottom content */
+            height: 100vh; /* Full viewport height */
+        }
       
   * {
       margin-bottom: 0px;
@@ -56,6 +69,7 @@
   box-sizing: border-box;
   position: absolute;
   top: 0%;
+  bottom: 0%;
   margin-left: 80px;
   margin-bottom: 0px;
   padding-left: 90px;  
@@ -68,7 +82,7 @@
 }
 
 .gallery img {
-  width: 195.9px;
+  width: 210px;
   filter: grayscale(100%) brightness(100%);
   transition: filter 0.3s ease;
   transition: opacity 0.4s ease;            

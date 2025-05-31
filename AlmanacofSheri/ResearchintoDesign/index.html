@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research into Design</title>
     <style>
+                html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        /* Apply CSS Grid to the body */
+        body {
+            display: grid;
+            align-items: end;  /* Align content to the bottom */
+            height: 100%;
+        }
 
          * {
         box-sizing: border-box;
@@ -32,6 +43,7 @@
             font-weight: 300;
             margin-top: 35px;
             margin-left: 30px;
+                    line-height: 1; 
 
         }
         a{
@@ -95,7 +107,7 @@
         border-top: 2px solid black;
         border-right: 2px solid black;
         opacity: 1;
-        height: 51vh;
+        height: 452px;
         z-index: 3; 
 
     }
@@ -106,7 +118,7 @@
             top: 0;
             width: 2px; /* Width of the right border */
             background-color: black;
-            height: 98.7vh; /* Extend the border vertically */
+            height: 845.9px; /* Extend the border vertically */
             z-index: -1; /* Place the extended border behind the content */
         }
 
@@ -117,7 +129,7 @@
             top: 0;
             width: 2px; /* Width of the right border */
             background-color: black;
-            height: 82.75vh; /* Extend the border vertically */
+            height: 713.8px; /* Extend the border vertically */
             z-index: -1; /* Place the extended border behind the content */
         }
         .links-3::after{
@@ -127,7 +139,7 @@
             top: 0;
             width: 2px; /* Width of the right border */
             background-color: black;
-            height: 66.75vh; /* Extend the border vertically */
+            height: 581.9px; /* Extend the border vertically */
             z-index: -1; /* Place the extended border behind the content */
         }
 
